@@ -1,0 +1,28 @@
+---
+title: "Model Design"
+author: "HKR"
+date: "2024-03-06"
+output: html_document
+---
+
+# Predict the peak
+
+Local river advocacy groups have been putting on a fundraiser called "Predict the Peak". We have learned skills in this class that put us in a unique position to be able to create a simple model to predict peak flow. The goals of this lab are to approach the problem (predict the peak) and determine what kind of data we would want to answer a question like this quantitatively. We'll build the model during the next class session. If you'd like, you can submit your modeled prediction by entering the fundraiser (\$25 per entry) but this isn't required.
+
+## Fundraiser background
+
+**What is PREDICT THE PEAK?** Each spring as snow melts in the mountains, it feeds the rivers with a pulse of water, bringing the highest streamflows of the year to our rivers. The "peak flow" changes year-to-year in timing and volume. Predict this year's correct peak flow for the Yellowstone, Gallatin, and Sun Rivers, or all three for a chance to WIN! Proceeds support the protection and restoration of Montana's rivers.
+
+**Why PREDICT THE PEAK matters?** Climate change is causing lower snowpack, earlier runoff, and increasing variability in precipitation and streamflows. In recent years we have seen record-setting droughts and floods in watersheds across Montana, affecting the health of our rivers and our communities. Our organizations are working to boost climate resilience through watershed restoration, community outreach, and education so please support us by participating in Predict the Peak!
+
+## Data needed
+
+How would you approach tackling this question? Let's discuss as a class.
+
+-   What kind of publicly available data would we want to use?
+
+-   What's missing?
+
+## Modeling
+
+We'll use a type of model called a Random Forest. We'll train the model using historic flow and model input data and eventually predict this year's flow based on our input data. More on this next time.
